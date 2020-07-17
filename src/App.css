@@ -1,16 +1,26 @@
 .App {
   text-align: center;
+  display: inline-block;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+.html {
+  width: 100%;
+  height: 100%;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.transition {
+  transition: all 1s;
+  background-color: green;
 }
 
 .App-header {
